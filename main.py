@@ -1,9 +1,11 @@
 # Simple port scanner.
 
 import socket
-
+import time
 
 def main():
+    time.sleep(0.3)
+    os.system("cls")
     ports = []
     print("## Simple port scanner ##\n")
     ip_addr = input("Enter IP address to scan: ")
