@@ -8,7 +8,7 @@ def main():
     time.sleep(0.3)
     os.system("cls")
     ports = []
-    print("## Simple port scanner ##\n")
+    print("## Simple port scanner ## - coolpancakes on github\n")
     ip_addr = input("Enter IP address to scan: ")
     print("Enter a range of ports by doing the following, EX:  1,2,55,33,66")
     port_range = input("Enter port or port range: ")
