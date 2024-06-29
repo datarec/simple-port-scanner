@@ -1,1 +1,1 @@
-I thought I'd write my own port scanner with my own knowledge base, the source code of the original portscanner on my github account was coded mostly by a random reddit user that had found a solution to my problem that i had seemed to of forgotten. 
+I thought I'd write my own port scanner with my own knowledge base, the source code of the original portscanner on my github only contains about 30 percent of my code, the rest being someone elses code. 
