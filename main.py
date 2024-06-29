@@ -14,7 +14,7 @@ def main():
     port_range = input("Enter port or port range: ")
     ports.append(port_range.split(","))
 
-    print("\n{}".format(ip_addr))
+    print("\nScanning IP: {}".format(ip_addr))
     for port_list in ports:
         for port in port_list:
             try:
