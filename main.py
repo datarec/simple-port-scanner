@@ -26,9 +26,13 @@ def main():
                 else:
                     print("Port {} is closed. ".format(port))
             except ValueError:
-                print("The port format is incorrect. ")
+                print("\nERROR: ")
+                print("Only numbers 0-65535 can be used as ports.")
             except socket.gaierror:
                 print("The IP format is incorrect. ")
+            except OverflowError:
+                print("\nERROR: ")
+                print("Only numbers 0-65535 can be used as ports.")
 
 
 if __name__ == "__main__":
