@@ -3,6 +3,7 @@
 import socket
 import time
 import os
+import subprocess
 
 def main():
     time.sleep(0.3)
@@ -36,4 +37,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n\nexiting...")
+        time.sleep(0.5)
+        subprocess.run(["cls"], shell=True)
